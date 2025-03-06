@@ -1,0 +1,10 @@
+// Using SCSS variables instead
+// $bg-color: #131010;
+$bg-color: #000000;
+$text-color: #ffffff;
+
+// Or keep both for compatibility
+// :root {
+//   --bg-color: #{$bg-color};
+//   --text-color: #{$text-color};
+// }

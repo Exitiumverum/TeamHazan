@@ -1,0 +1,44 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.85.1",
+    "vite": "^6.2.0"
+  },
+  "name": "hazan",
+  "version": "1.0.0",
+  "main": "vite.config.js",
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "braces": "^3.0.3",
+    "chokidar": "^4.0.3",
+    "detect-libc": "^1.0.3",
+    "esbuild": "^0.25.0",
+    "fill-range": "^7.1.1",
+    "fsevents": "^2.3.3",
+    "immutable": "^5.0.3",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "micromatch": "^4.0.8",
+    "nanoid": "^3.3.8",
+    "node-addon-api": "^7.1.1",
+    "picocolors": "^1.1.1",
+    "picomatch": "^2.3.1",
+    "postcss": "^8.5.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "readdirp": "^4.1.2",
+    "rollup": "^4.34.9",
+    "source-map-js": "^1.2.1",
+    "to-regex-range": "^5.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

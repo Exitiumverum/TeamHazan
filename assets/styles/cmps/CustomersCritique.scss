@@ -1,0 +1,38 @@
+.customers-critiques-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  padding: 1em 0;
+  justify-content: center;
+  margin-inline: 12em;
+  align-items: center;
+  margin-block: 3em;
+  h2 {
+    color: white;
+  }
+  h3 {
+    color: #dbb461;
+  }
+  p {
+    color: white;
+  }
+  .customers-critique-container {
+    min-width: 20em;
+    max-width: 20em;
+    height: 14em;
+    margin: 0 1em;
+    border: 1px solid white;
+    border-radius: 0.6em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .customer-critique {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

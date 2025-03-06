@@ -1,0 +1,15 @@
+.app-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #ffffff;
+  padding: 10px;
+
+  img {
+    width: 12em;
+    height: 12em;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  }
+}

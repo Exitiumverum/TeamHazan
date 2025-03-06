@@ -1,0 +1,25 @@
+.intro-img-right {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin-inline: 7em;
+  img {
+    width: 25em;
+    height: 25em;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    border-radius: 0.4em;
+  }
+  h2 {
+    margin-right: 1em;
+    max-width: 40em;
+    text-align: right;
+    color: #dbb461;
+  }
+  h3 {
+    margin-right: 1em;
+    max-width: 40em;
+    text-align: right;
+    color: white;
+  }
+}
