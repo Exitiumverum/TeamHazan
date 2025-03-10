@@ -48,4 +48,13 @@
   .nav-links:hover {
     color: #dbb461;
   }
+
+  .mobile-menu {
+    .menu-icon {
+      width: 2em;
+      height: 2em;
+      margin-right: 1em;
+      // object-fit: cover;
+    }
+  }
 }

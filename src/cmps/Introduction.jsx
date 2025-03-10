@@ -1,6 +1,6 @@
 import Hazan from '../../assets/imgs/HAZAN.jpg'
 import Hazan2 from '../assets/Imgs/Imgs2/B&A21.png'
-import BeforeBgc from '../assets/Imgs/B&ABgc.jpg'
+import BeforeBgc from '../assets/Imgs/Banner.jpg'
 
 export function Introduction() {
   return (
