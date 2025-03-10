@@ -6,10 +6,46 @@
   color: #ffffff;
   padding: 10px;
 
-  img {
+  // img {
+  //   width: 12em;
+  //   height: 12em;
+  //   object-fit: cover;
+  // }
+
+  .logo {
     width: 12em;
     height: 12em;
     object-fit: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  }
+
+  .nav-links {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .left-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+    align-items: center;
+  }
+
+  .right-links-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: space-between;
+  }
+
+  .nav-links:hover {
+    color: #dbb461;
   }
 }

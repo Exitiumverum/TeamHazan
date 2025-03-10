@@ -1,12 +1,19 @@
-@import './base/main-layout';
-@import './base/setup';
-@import './base/vars';
-@import './base/typoghrapy';
+@use './base/main-layout';
+@use './base/setup';
+@use './base/vars';
+@use './base/typoghrapy';
 
 // Components
-@import './cmps/AppHeader';
-@import './cmps/nav-links';
-@import './cmps/intro-img-right';
-@import './cmps/intro-img-left';
-@import './cmps/Introduction';
-@import './cmps/CustomersCritique';
+@use './cmps/AppHeader';
+@use './cmps/nav-links';
+@use './cmps/intro-img-right';
+@use './cmps/intro-img-left';
+@use './cmps/Introduction';
+@use './cmps/CustomersCritique';
+@use './cmps/BeforeAfter';
+@use './cmps/ImagePreview';
+@use './cmps/Loading';
+@use './cmps/HowItWorks';
+
+// media queries
+@use './MQ';

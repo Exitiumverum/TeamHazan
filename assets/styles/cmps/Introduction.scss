@@ -3,4 +3,22 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  .team-img {
+    width: 100%;
+    height: 33em;
+    object-fit: cover;
+    object-position: 0 75%;
+  }
+  h1 {
+    color: white;
+  }
+  .intro-content {
+    margin-block: 2em;
+    max-width: 70em;
+    gap: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
